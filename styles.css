@@ -18,12 +18,18 @@ body, html{
     margin: 20px;
 }
 
+/* Body */
+
+/* Nav bar */
+
 nav div{
     display: flex;
     justify-content: flex-end;
 }
 
-.hero-img{
+/* Container div for background and nav bar */
+
+.bg-container{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(assets/weather_hero.jpg);
     height: 100%;
     width: 100%;
@@ -32,8 +38,21 @@ nav div{
     overflow: hidden;
 }
 
+/* Weatherify heading */
+
 .hero-text{
     font-family: 'Nunito Sans', 'sans-serif';
     color: whitesmoke;
+
+    /* Always center the text to the middle of the page */
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.weatherify {
+
+    /* Center align the title text */
+    text-align: center;
+}
