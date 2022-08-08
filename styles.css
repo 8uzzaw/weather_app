@@ -49,6 +49,7 @@ nav div{
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 20px #999999;
 }
 
 .weatherify {
@@ -59,20 +60,36 @@ nav div{
 
 /* Search Bar */
 
-.searchbar{
+#search {
     font-family: 'Nunito Sans', 'sans-serif';
     position: fixed;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 51.5%;
+    transform: translate(-50%, -50%);   
     width: 20%;
     height: 5%;
-    border-radius: 25px;
-    border: 0px;
-    opacity: 70%;
-    text-align: center;
 }
 
-.searchbar:hover {
+#searchbar{
+    width: 85%;
+    height: 100%;
+    border-radius: 25px;
+    border: 0px;
+    text-align: center;
+    opacity: 70%;
+
+}
+
+#searchbar:hover {
     opacity: 100%;
+}
+
+#submitbtn {
+    height: 100%;
+    width: 13%;
+    float: right;
+    background:url(assets/icons8-search-128.png);
+    border:0;
+    display:block;
+    background-size: cover;
 }
